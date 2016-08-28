@@ -1,13 +1,28 @@
 <!doctype html>
-<meta charset="utf-8">
-<link rel="stylesheet" href="../../static/style.css">
-<title>Informacja dla potwierdzonych uczestników PySilesia Juniors #1 — pysilesia</title>
+<head>
+  <meta charset="utf-8">
+  <title>Informacja dla potwierdzonych uczestników PySilesia Juniors #1 |  PySilesia</title>
+  
+<link rel="stylesheet" href="../../static/css/bootstrap.min.css?h=6527d8bf">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+<link rel="icon" type="image/png" href="../../static/favicon.png?h=3c428245" />
+</head>
 <body>
-  <header>
-    <img src="/static/logo.png" />
-    <nav>
-      <ul class="nav navbar-nav">
-        <li><a href="../../">Witamy</a></li>
+  <nav class="navbar navbar-inverse navbar-static-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/"><img style="height: 130%;" src="/static/logo.png" alt="PySilesia"/></a>
+    </div>
+
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
         
           <li><a href="../../blog/">Aktualności</a></li>
         
@@ -15,30 +30,37 @@
         
           <li><a href="../../codeofconduct/">Code of Conduct</a></li>
         
-          <li class="active"><a href="../../juniors/">Juniors</a></li>
+          <li><a href="../../juniors/">Juniors</a></li>
         
           <li><a href="../../plpython/">Python w Polsce</a></li>
         
           <li><a href="../../contact/">Kontakt</a></li>
         
       </ul>
-    </nav>
-  </header>
-  <div class="page">
-    
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
   
-  <div class="blog-post">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        
   
-    <h2>Informacja dla potwierdzonych uczestników PySilesia Juniors #1</h2>
-  
-  <p class="meta">
-    dodane przez
-    
-      Daria Ratyńska
-     w dniu
-    2016-08-23
-  </p>
-  <p><strong>Na warsztaty proszę o zabranie laptopa, zasilacza oraz o pobranie i zainstalowanie następującego oprogramowania:</strong></p>
+  <article class="blog-post">
+    <header>
+      
+        <h2>Informacja dla potwierdzonych uczestników PySilesia Juniors #1</h2>
+      
+      <p class="meta small">
+        dodane przez
+        
+          Daria Ratyńska
+         w dniu
+        2016-08-23
+      </p>
+    </header>
+    <section>
+      <p><strong>Na warsztaty proszę o zabranie laptopa, zasilacza oraz o pobranie i zainstalowanie następującego oprogramowania:</strong></p>
 <ol>
 <li><p>IDE (graficzne środowisko programistyczne) z którego będziemy korzystać <a href="https://www.jetbrains.com/pycharm-edu/">PyCharm Edu</a> (dostępne dla wszystkich popularnych systemów operacyjnych).</p>
 </li>
@@ -70,11 +92,48 @@ Jeśli ktoś nie czuję się na siłach, aby samemu zainstalować środowisko lu
 <p><strong>Nie zapomnijcie o dobrym humorze!</strong>
 Do zobaczenia na warsztatach 😊</p>
 
-  </div>
+    </section>
+    
+  </article>
 
 
+      </div>
+    </div>
   </div>
-  <footer>
-    &copy; Copyright 2016 by PySilesia. Hosted on <a href="http://megiteam.pl/"><img src="/static/megiteam.png" /></a>
-  </footer>
+  
+  <style>
+    /* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 30px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 30px;
+  background-color: #f5f5f5;
+}
+
+.container .text-muted {
+  margin: 5px 0;
+}
+</style>
+
+<footer class="footer">
+  <div class="container">
+    <p class="text-muted text-center">
+        &copy; Copyright 2016 by PySilesia. Hosted on
+        <a href="http://megiteam.pl/"><img src="../../static/megiteam.png?h=42d0bccb"/></a>
+    </p>
+  </div>
+</footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="../../static/js/bootstrap.min.js"></script>
 </body>

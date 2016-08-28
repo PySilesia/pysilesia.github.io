@@ -1,15 +1,30 @@
 <!doctype html>
-<meta charset="utf-8">
-<link rel="stylesheet" href="../../static/style.css">
-<title>PySilesia #6/2016 — pysilesia</title>
+<head>
+  <meta charset="utf-8">
+  <title>PySilesia #6/2016 |  PySilesia</title>
+  
+<link rel="stylesheet" href="../../static/css/bootstrap.min.css?h=6527d8bf">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+<link rel="icon" type="image/png" href="../../static/favicon.png?h=3c428245" />
+</head>
 <body>
-  <header>
-    <img src="/static/logo.png" />
-    <nav>
-      <ul class="nav navbar-nav">
-        <li><a href="../../">Witamy</a></li>
+  <nav class="navbar navbar-inverse navbar-static-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/"><img style="height: 130%;" src="/static/logo.png" alt="PySilesia"/></a>
+    </div>
+
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
         
-          <li class="active"><a href="../../blog/">Aktualności</a></li>
+          <li><a href="../../blog/">Aktualności</a></li>
         
           <li><a href="../../about/">O nas</a></li>
         
@@ -22,36 +37,103 @@
           <li><a href="../../contact/">Kontakt</a></li>
         
       </ul>
-    </nav>
-  </header>
-  <div class="page">
-    
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
   
-  <div class="blog-post">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        
   
-    <h2>PySilesia #6/2016</h2>
-  
-  <p class="meta">
-    dodane przez
-    
-      <a href="https://twitter.com/fk_lx">Filip Kłębczyk</a>
-     w dniu
-    2016-07-25
-  </p>
-  <p>Na lipcowym, luźnym i spontanicznym spotkaniu PySilesia przewidzieliśmy Coding Dojo (tym samym wracamy też do organizowania tego typu spotkań od czasu do czasu).</p>
+  <article class="blog-post">
+    <header>
+      
+        <h2>PySilesia #6/2016</h2>
+      
+      <p class="meta small">
+        dodane przez
+        
+          <a href="https://twitter.com/fk_lx">Filip Kłębczyk</a>
+         w dniu
+        2016-07-25
+      </p>
+    </header>
+    <section>
+      <p>Na lipcowym, luźnym i spontanicznym spotkaniu PySilesia przewidzieliśmy Coding Dojo (tym samym wracamy też do organizowania tego typu spotkań od czasu do czasu).</p>
 <p><strong>Co to jest Coding Dojo?</strong><br>
 Coding Dojo na PySilesia to forma spotkań przeznaczonych dla osób o różnych stopniach zaawansowania w języku Python (są dobre zarówno dla zupełnie początkujących jak i zaawansowanych). Głównym celem jest ćwiczenie programowania w parach i TDD (Test Driven Development). Grupa staje przed wspólnym rozwiązaniem zadania, ale pracuje z wykorzystaniem tylko jednego komputera.</p>
-<p><strong>Miejsce:</strong><br>
-<a href="http://drzwizwanekoniem.pl/">"Drzwi zwane koniem"</a><br>
+
+    </section>
+    
+    <hr/>
+    <footer>
+      
+        <div class="row">
+          <div class="col-xs-1 col-xs-offset-1">
+            <p><i class="fa fa-map-marker fa-2x" aria-hidden="true" title="Miejsce" alt="Miejsce"></i></p>
+          </div>
+          <div class="col-xs-10">
+            <p><a href="http://drzwizwanekoniem.pl/">"Drzwi zwane koniem"</a><br>
 Spotykamy się w ostatniej sali (po wejściu cały czas prosto)</p>
-<p><strong>Czas:</strong><br>
-28 lipca, godz. 17:45</p>
 
+          </div>
+        </div>
+      
+      
+        <div class="row">
+          <div class="col-xs-1 col-xs-offset-1">
+            <p><i class="fa fa-calendar fa-2x" aria-hidden="true" title="Czas" alt="Czas"></i></p>
+          </div>
+          <div class="col-xs-10">
+            <p>28 lipca, godz. 17:45</p>
+
+          </div>
+        </div>
+      
+      
+    </footer>
+    
+  </article>
+
+
+      </div>
+    </div>
   </div>
+  
+  <style>
+    /* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 30px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 30px;
+  background-color: #f5f5f5;
+}
 
+.container .text-muted {
+  margin: 5px 0;
+}
+</style>
 
+<footer class="footer">
+  <div class="container">
+    <p class="text-muted text-center">
+        &copy; Copyright 2016 by PySilesia. Hosted on
+        <a href="http://megiteam.pl/"><img src="../../static/megiteam.png?h=42d0bccb"/></a>
+    </p>
   </div>
-  <footer>
-    &copy; Copyright 2016 by PySilesia. Hosted on <a href="http://megiteam.pl/"><img src="/static/megiteam.png" /></a>
-  </footer>
+</footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="../../static/js/bootstrap.min.js"></script>
 </body>

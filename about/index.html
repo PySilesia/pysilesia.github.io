@@ -1,17 +1,32 @@
 <!doctype html>
-<meta charset="utf-8">
-<link rel="stylesheet" href="../static/style.css">
-<title>O nas — pysilesia</title>
+<head>
+  <meta charset="utf-8">
+  <title>O nas |  PySilesia</title>
+  
+<link rel="stylesheet" href="../static/css/bootstrap.min.css?h=6527d8bf">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+<link rel="icon" type="image/png" href="../static/favicon.png?h=3c428245" />
+</head>
 <body>
-  <header>
-    <img src="/static/logo.png" />
-    <nav>
-      <ul class="nav navbar-nav">
-        <li><a href="../">Witamy</a></li>
+  <nav class="navbar navbar-inverse navbar-static-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/"><img style="height: 130%;" src="/static/logo.png" alt="PySilesia"/></a>
+    </div>
+
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
         
           <li><a href="../blog/">Aktualności</a></li>
         
-          <li class="active"><a href="../about/">O nas</a></li>
+          <li><a href="../about/">O nas</a></li>
         
           <li><a href="../codeofconduct/">Code of Conduct</a></li>
         
@@ -22,18 +37,60 @@
           <li><a href="../contact/">Kontakt</a></li>
         
       </ul>
-    </nav>
-  </header>
-  <div class="page">
-    
-  <h2>O nas</h2>
-  <p>PySilesia to Śląska Grupa Użytkowników Języka Python.</p>
-<p>Grupa powstała w październiku 2012 r. a jej celem jest popularyzacja nowoczesnych technologii z zakresu IT (z naciskiem na technologie pythonowe) oraz wymiana doświadczeń pomiędzy deweloperami, administratorami, przedstawicielami biznesu oraz kręgów naukowych.</p>
-<p>Spotkania grupy odbywają się na Górnym Śląsku.</p>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        
+  <h1>O nas</h1>
+  <p><strong>PySilesia</strong> to <strong>Śląska Grupa Użytkowników Języka Python</strong>.</p>
+<p>Grupa powstała w październiku 2012 r. a jej celem jest popularyzacja języka Pythona i nowoczesnych technologii z zakresu IT oraz wymiana doświadczeń pomiędzy deweloperami, administratorami, przedstawicielami biznesu i kręgów naukowych.</p>
+<p>Spotkania grupy odbywają się na Śląsku (początkowo w Gliwicach/Zabrzu/Katowicach, ale od września 2016 pojawiamy się również we Wrocławiu, a docelowo część spotkań pojawi się również w Opolu).</p>
 
+  
+    <div class="image text-center"><img src="../about/3mapa.png" width="288.0" height="227.333333333"></div>
+  
 
+      </div>
+    </div>
   </div>
-  <footer>
-    &copy; Copyright 2016 by PySilesia. Hosted on <a href="http://megiteam.pl/"><img src="/static/megiteam.png" /></a>
-  </footer>
+  
+  <style>
+    /* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 30px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 30px;
+  background-color: #f5f5f5;
+}
+
+.container .text-muted {
+  margin: 5px 0;
+}
+</style>
+
+<footer class="footer">
+  <div class="container">
+    <p class="text-muted text-center">
+        &copy; Copyright 2016 by PySilesia. Hosted on
+        <a href="http://megiteam.pl/"><img src="../static/megiteam.png?h=42d0bccb"/></a>
+    </p>
+  </div>
+</footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="../static/js/bootstrap.min.js"></script>
 </body>

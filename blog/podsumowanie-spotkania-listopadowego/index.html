@@ -1,15 +1,30 @@
 <!doctype html>
-<meta charset="utf-8">
-<link rel="stylesheet" href="../../static/style.css">
-<title>Podsumowanie spotkania listopadowego — pysilesia</title>
+<head>
+  <meta charset="utf-8">
+  <title>Podsumowanie spotkania listopadowego |  PySilesia</title>
+  
+<link rel="stylesheet" href="../../static/css/bootstrap.min.css?h=6527d8bf">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+<link rel="icon" type="image/png" href="../../static/favicon.png?h=3c428245" />
+</head>
 <body>
-  <header>
-    <img src="/static/logo.png" />
-    <nav>
-      <ul class="nav navbar-nav">
-        <li><a href="../../">Witamy</a></li>
+  <nav class="navbar navbar-inverse navbar-static-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/"><img style="height: 130%;" src="/static/logo.png" alt="PySilesia"/></a>
+    </div>
+
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
         
-          <li class="active"><a href="../../blog/">Aktualności</a></li>
+          <li><a href="../../blog/">Aktualności</a></li>
         
           <li><a href="../../about/">O nas</a></li>
         
@@ -22,23 +37,30 @@
           <li><a href="../../contact/">Kontakt</a></li>
         
       </ul>
-    </nav>
-  </header>
-  <div class="page">
-    
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
   
-  <div class="blog-post">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        
   
-    <h2>Podsumowanie spotkania listopadowego</h2>
-  
-  <p class="meta">
-    dodane przez
-    
-      Maciej Szulik
-     w dniu
-    2012-12-11
-  </p>
-  <p>Zgodnie z wcześniejszym wpisem na blogu spotkanie odbyło się 30 listopada 2012 o godzinie 17:30 w gliwickim Mrowisku przy wsparciu sponsorkim niezawodnego <a href="http://megiteam.pl/">MegiTeam</a>.</p>
+  <article class="blog-post">
+    <header>
+      
+        <h2>Podsumowanie spotkania listopadowego</h2>
+      
+      <p class="meta small">
+        dodane przez
+        
+          Maciej Szulik
+         w dniu
+        2012-12-11
+      </p>
+    </header>
+    <section>
+      <p>Zgodnie z wcześniejszym wpisem na blogu spotkanie odbyło się 30 listopada 2012 o godzinie 17:30 w gliwickim Mrowisku przy wsparciu sponsorkim niezawodnego <a href="http://megiteam.pl/">MegiTeam</a>.</p>
 <p>Naszym gościem był <a href="http://konradhalas.blogspot.com/">Konrad Hałas</a>, który omówił zagadnienie <a href="http://konradhalas.blogspot.com/2010/07/quis-custodiet-ipsos-custodes.html">testowania mutacyjnego</a> w języku Python 3.x na przykładzie tworzonego przez siebie narzędzia <a href="http://mutpy.org/">MutPy</a>.</p>
 <p>Po zakończeniu części prezentacyjnej przeszliśmy do spraw organizacyjnych w ramach których, zostało ustalonych kilka ważnych elementów.</p>
 <p>Po pierwsze ustaliliśmy, że kupimy domenę <a href="../../blog/podsumowanie-spotkania-listopadowego/pysilesia.org">pysilesia.org</a>, co jak widać zostało już zrealizowane. Dodatkowo informacje o naszej lokalnej grupie zostały zamieszczone na <a href="http://wiki.python.org/moin/LocalUserGroups#Poland">wiki.python.org</a>, a dzięki uprzejmości Konrada także na stronie zaprzyjaźnionej grupy <a href="http://www.pywaw.org/">PyWaw</a>.</p>
@@ -46,11 +68,48 @@
 <p>Filip wspomniał o także o rozmowach z firmą <a href="http://www.redhat.com/">Red Hat</a>, która chce wspomóc takie organizacje jak nasza i w związku z tym jest szansa, że na jednym z naszych przyszłych spotkań pojawi się ktoś z RedHata z Brna.</p>
 <p>Na koniec chciałbym prosić Was, jeśli znacie w okolicy ludzi lub firmy, które wykorzystują Pythona bądź są nim zainteresowani o kontakt z nami. Zależy nam na promowaniu naszej grupy w regionie Śląska, a tym samym na promowaniu języka Python.</p>
 
-  </div>
+    </section>
+    
+  </article>
 
 
+      </div>
+    </div>
   </div>
-  <footer>
-    &copy; Copyright 2016 by PySilesia. Hosted on <a href="http://megiteam.pl/"><img src="/static/megiteam.png" /></a>
-  </footer>
+  
+  <style>
+    /* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 30px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 30px;
+  background-color: #f5f5f5;
+}
+
+.container .text-muted {
+  margin: 5px 0;
+}
+</style>
+
+<footer class="footer">
+  <div class="container">
+    <p class="text-muted text-center">
+        &copy; Copyright 2016 by PySilesia. Hosted on
+        <a href="http://megiteam.pl/"><img src="../../static/megiteam.png?h=42d0bccb"/></a>
+    </p>
+  </div>
+</footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="../../static/js/bootstrap.min.js"></script>
 </body>
