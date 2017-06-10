@@ -51,6 +51,109 @@
   <article class="blog-post">
     <header>
       
+        <h2><a href="../blog/pysilesia-62017/">PySilesia #6/2017</a></h2>
+      
+      <p class="meta small">
+        dodane przez
+        
+          <a href="https://twitter.com/soltysh">Maciej Szulik</a>
+         w dniu
+        2017-06-10
+      </p>
+    </header>
+    <section>
+      <p>W ramach spotkania odbędą się warsztaty z <a href="https://www.openshift.com/">OpenShift-a</a>. Wydarzenie odbywa się dzięki współpracy z  Medialab Katowice. Na warsztat obowiązują zapisy.</p>
+<hr>
+<p><strong>Liczba miejsc:</strong> 20</p>
+<p><strong>Prowadzący</strong>: Maciej Szulik (<a href="https://twitter.com/soltysh">@soltysh</a>)</p>
+<p><strong>Tytuł</strong>: Efektywne uruchamianie aplikacji python-owych na platformie Kubernetes/OpenShift?</p>
+<p><strong>Opis</strong>: Google, Red Hat, Intel, Huawei, Mirantis oraz wiele, wiele innych firm inwestuje
+ogromne zasoby ludzi i czasu w projekt <a href="https://github.com/kubernetes/kubernetes/">Kubernetes</a>.
+Założę się, że i dla Ciebie ta nazwa budzi pewne skojarzenia, zapewne zetknąłeś
+się z nią w ciągu ostatnich dwunastu miesięcy albo na Hacker News, Twitter-ze,
+Facebook-u lub na innym kanale. Czy chciałbyś się dowiedzieć więcej na temat
+obecnie najlepszego systemu zarządzania kontenerami, ale obawiasz się problemów
+początkującego? Czy chcesz zobaczyć jak łatwo uruchomić aplikacji z wykorzystaniem
+kontenerów? Czy chcesz poczuć łatwość skalowania aplikacji jednym kliknięciem?
+To i wiele innych tematów zostanie poruszone podczas naszego spotkania.</p>
+<p>W ramach tej prezentacji/warsztatu postaram się pokazać, krok po kroku jak łatwo
+można skonfigurować środowisko, a następnie zbudować i uruchomić aplikację bazującą
+na architekturze miscroservice-ów. W tym calu wykorzystamy <a href="https://www.openshift.com/">OpenShift-a</a>,
+który jest dystrybucją Kubernetes utworzoną przez firmę <a href="https://www.redhat.com/">Red Hat</a>
+z kilkoma dodatkami, które zostaną szczegółowo opisane na początku prezentacji.</p>
+<p>Aby dodatkowo zachęcić Cię do udziału oto kilka tematów, które zostaną poruszone
+w ramach spotkania:</p>
+<ul>
+<li>w pełni automatyczne budowanie i uruchamianie aplikacji</li>
+<li>integracja z git-em</li>
+<li>integracja z rejestrem obrazów (np. Docker Hub)</li>
+<li>skalowanie aplikacji</li>
+<li>bezpieczeństwo kontenerów</li>
+</ul>
+<p>i wiele innych.</p>
+<p><strong>Ważne</strong>: Dla osób, które chcą przerabiać materiał wraz z prowadzącym konieczne
+jest wcześniejsze uruchomienie OpenShifta lokalnie, ze względu na potrzębę ściągnięcia
+kilku gigabajtów obrazów. W tym celu należy zaopatrzyć się w <a href="https://www.docker.com/">Docker-a</a>
+oraz ściągnąć <a href="https://github.com/openshift/origin/releases/tag/v1.5.1">klienta OpenShifta</a>
+odpowiadającego Twojej platformie. Rozpakować archiwum i uruchomić polecenie <code>oc cluster up</code>,
+które uruchomi lokalnie OpenShifta. Pierwsze uruchomienie będzie trwało
+kilka-kilkanaście minut (w zależności od dostępnego łącza) ponieważ ściągane są
+obrazy konieczne do uruchomienia OpenShifta. Po poprawnym uruchomieniu można
+OpenShifta wyłączyć poleceniem <code>oc cluster down</code>.</p>
+<p>Dla niecierpliwych, przerabiane materiały dostępne są pod <a href="../blog/pysilesia-62017/bit.ly/os3work">tym adresem</a>.</p>
+<p><strong>O prelegencie</strong>: Maciej jest pasjonatą programowania z ponad 10-cio letnim stażem.
+Obecnie zajmuje się <a href="http://bugs.python.org/">http://bugs.python.org/</a> a przy okazji
+czasem poprawia bibliotekę <code>imap</code> oraz od niedawna <code>argparse</code> ze standardowej biblioteki
+CPythona. Poza tym, pracuje nad projektami OpenShift i Kubernetes dla firmy Red Hat.
+W pozostałym wolnym czasie pomaga przy PyCon PL, US PyCon oraz prezentuje na różnych
+wydarzeniach w Europie i na Świecie.</p>
+
+    </section>
+    
+    <hr/>
+    <footer>
+      
+        <div class="row">
+          <div class="col-xs-1 col-xs-offset-1">
+            <p><i class="fa fa-map-marker fa-2x" aria-hidden="true" title="Miejsce" alt="Miejsce"></i></p>
+          </div>
+          <div class="col-xs-10">
+            <p>Medialab Katowice, Plac Sejmu Śląskiego 2, parter po lewej</p>
+
+          </div>
+        </div>
+      
+      
+        <div class="row">
+          <div class="col-xs-1 col-xs-offset-1">
+            <p><i class="fa fa-calendar fa-2x" aria-hidden="true" title="Czas" alt="Czas"></i></p>
+          </div>
+          <div class="col-xs-10">
+            <p>29 czerwca (czwartek), godz 18:00</p>
+
+          </div>
+        </div>
+      
+      
+        <div class="row">
+          <div class="col-xs-1 col-xs-offset-1">
+            <p><i class="fa fa-check-circle-o fa-2x" aria-hidden="true" title="Zapisy" alt="Zapisy"></i></p>
+          </div>
+          <div class="col-xs-10">
+            <p><a href="https://goo.gl/forms/1WegdMfuwX3zXVuA3">https://goo.gl/forms/1WegdMfuwX3zXVuA3</a></p>
+
+          </div>
+        </div>
+      
+    </footer>
+    
+  </article>
+
+  
+    
+  <article class="blog-post">
+    <header>
+      
         <h2><a href="../blog/pysilesia-52017/">PySilesia #5/2017</a></h2>
       
       <p class="meta small">
@@ -620,63 +723,6 @@ Spotykamy się w ostatniej sali (po wejściu cały czas prosto)</p>
           </div>
           <div class="col-xs-10">
             <p>28 lipca, godz. 17:45</p>
-
-          </div>
-        </div>
-      
-      
-    </footer>
-    
-  </article>
-
-  
-    
-  <article class="blog-post">
-    <header>
-      
-        <h2><a href="../blog/pysilesia-52016/">PySilesia #5/2016</a></h2>
-      
-      <p class="meta small">
-        dodane przez
-        
-          <a href="https://twitter.com/fk_lx">Filip Kłębczyk</a>
-         w dniu
-        2016-06-09
-      </p>
-    </header>
-    <section>
-      <p>Na czerwcowym spotkaniu PySilesia dwie prelekcje. Odbędzie się <a href="http://pysilesia.org/blog/pysilesia-42016/">zaległa majowa</a>, która ostatnio nie doszła do skutku z powodu nieoczekiwanego wyjątku KrakówMainBusStationLongWeekendPassengersOverflow.  Będzie też prelekcja naszego pythonowego kolegi <a href="http://encukou.cz/">Petra Viktorina</a> z Brna, dzięki której można będzie dowiedzieć się co nieco o wnętrznościach Pythona:</p>
-<p><strong>"Python compilation &amp; bytecode"</strong></p>
-<p><strong>Opis prelekcji:</strong><br>
-So, you wrote some Python code. What needs to happen before it starts running? I'll talk about things like CPython's tokenization, parsing, the Abstract Syntax Tree, bytecode and its serialization and caching, line number tables, and the stack-based virtual machine. Both beginners and experts should learn something new :)</p>
-<p><strong>O prelegencie:</strong><br>
-Petr jest doświadczonym programistą Pythona, pracownikiem <a href="https://www.redhat.com/en/global/czech-republic">Red Hata</a>, aktywnym uczestnikiem wielu projektów open source, weteranem czeskich meetupów <a href="http://pyvo.cz/">Pyvo</a>, częstym prelegentem konferencyjnym, jednym z organizatorów <a href="https://cz.pycon.org/">PyCon CZ</a>, mentorem PyLadies oraz Django Girls, poza tym last but not least <a href="http://pl.pycon.org/2016/ambassadors">czeskim ambasadorem PyCona PL</a>.</p>
-<p><strong>Lightning Talks:</strong><br>
-Na prośbę z ostatniego spotkania wracamy do starego zwyczaju szybkich pięciominutowych prelekcji. Nie trzeba ich wcześniej zgłaszać, ale warto przed spotkaniem się trochę przygotować.</p>
-
-    </section>
-    
-    <hr/>
-    <footer>
-      
-        <div class="row">
-          <div class="col-xs-1 col-xs-offset-1">
-            <p><i class="fa fa-map-marker fa-2x" aria-hidden="true" title="Miejsce" alt="Miejsce"></i></p>
-          </div>
-          <div class="col-xs-10">
-            <p><a href="http://drzwizwanekoniem.pl/">"Drzwi zwane koniem"</a><br>
-Spotykamy się w ostatniej sali (po wejściu cały czas prosto)</p>
-
-          </div>
-        </div>
-      
-      
-        <div class="row">
-          <div class="col-xs-1 col-xs-offset-1">
-            <p><i class="fa fa-calendar fa-2x" aria-hidden="true" title="Czas" alt="Czas"></i></p>
-          </div>
-          <div class="col-xs-10">
-            <p>22 czerwca, godz. 17:45</p>
 
           </div>
         </div>

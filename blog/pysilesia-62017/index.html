@@ -1,0 +1,190 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+  <title>PySilesia #6/2017 |  PySilesia</title>
+  
+<link rel="stylesheet" href="../../static/css/bootstrap.min.css?h=6527d8bf">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+<link rel="icon" type="image/png" href="../../static/favicon.png?h=3c428245" />
+</head>
+<body>
+  <nav class="navbar navbar-inverse navbar-static-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/"><img style="height: 130%;" src="/static/logo.png" alt="PySilesia"/></a>
+    </div>
+
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        
+          <li><a href="../../blog/">Aktualności</a></li>
+        
+          <li><a href="../../about/">O nas</a></li>
+        
+          <li><a href="../../codeofconduct/">Code of Conduct</a></li>
+        
+          <li><a href="../../juniors/">Juniors</a></li>
+        
+          <li><a href="../../plpython/">Python w Polsce</a></li>
+        
+          <li><a href="../../contact/">Kontakt</a></li>
+        
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        
+  
+  <article class="blog-post">
+    <header>
+      
+        <h2>PySilesia #6/2017</h2>
+      
+      <p class="meta small">
+        dodane przez
+        
+          <a href="https://twitter.com/soltysh">Maciej Szulik</a>
+         w dniu
+        2017-06-10
+      </p>
+    </header>
+    <section>
+      <p>W ramach spotkania odbędą się warsztaty z <a href="https://www.openshift.com/">OpenShift-a</a>. Wydarzenie odbywa się dzięki współpracy z  Medialab Katowice. Na warsztat obowiązują zapisy.</p>
+<hr>
+<p><strong>Liczba miejsc:</strong> 20</p>
+<p><strong>Prowadzący</strong>: Maciej Szulik (<a href="https://twitter.com/soltysh">@soltysh</a>)</p>
+<p><strong>Tytuł</strong>: Efektywne uruchamianie aplikacji python-owych na platformie Kubernetes/OpenShift?</p>
+<p><strong>Opis</strong>: Google, Red Hat, Intel, Huawei, Mirantis oraz wiele, wiele innych firm inwestuje
+ogromne zasoby ludzi i czasu w projekt <a href="https://github.com/kubernetes/kubernetes/">Kubernetes</a>.
+Założę się, że i dla Ciebie ta nazwa budzi pewne skojarzenia, zapewne zetknąłeś
+się z nią w ciągu ostatnich dwunastu miesięcy albo na Hacker News, Twitter-ze,
+Facebook-u lub na innym kanale. Czy chciałbyś się dowiedzieć więcej na temat
+obecnie najlepszego systemu zarządzania kontenerami, ale obawiasz się problemów
+początkującego? Czy chcesz zobaczyć jak łatwo uruchomić aplikacji z wykorzystaniem
+kontenerów? Czy chcesz poczuć łatwość skalowania aplikacji jednym kliknięciem?
+To i wiele innych tematów zostanie poruszone podczas naszego spotkania.</p>
+<p>W ramach tej prezentacji/warsztatu postaram się pokazać, krok po kroku jak łatwo
+można skonfigurować środowisko, a następnie zbudować i uruchomić aplikację bazującą
+na architekturze miscroservice-ów. W tym calu wykorzystamy <a href="https://www.openshift.com/">OpenShift-a</a>,
+który jest dystrybucją Kubernetes utworzoną przez firmę <a href="https://www.redhat.com/">Red Hat</a>
+z kilkoma dodatkami, które zostaną szczegółowo opisane na początku prezentacji.</p>
+<p>Aby dodatkowo zachęcić Cię do udziału oto kilka tematów, które zostaną poruszone
+w ramach spotkania:</p>
+<ul>
+<li>w pełni automatyczne budowanie i uruchamianie aplikacji</li>
+<li>integracja z git-em</li>
+<li>integracja z rejestrem obrazów (np. Docker Hub)</li>
+<li>skalowanie aplikacji</li>
+<li>bezpieczeństwo kontenerów</li>
+</ul>
+<p>i wiele innych.</p>
+<p><strong>Ważne</strong>: Dla osób, które chcą przerabiać materiał wraz z prowadzącym konieczne
+jest wcześniejsze uruchomienie OpenShifta lokalnie, ze względu na potrzębę ściągnięcia
+kilku gigabajtów obrazów. W tym celu należy zaopatrzyć się w <a href="https://www.docker.com/">Docker-a</a>
+oraz ściągnąć <a href="https://github.com/openshift/origin/releases/tag/v1.5.1">klienta OpenShifta</a>
+odpowiadającego Twojej platformie. Rozpakować archiwum i uruchomić polecenie <code>oc cluster up</code>,
+które uruchomi lokalnie OpenShifta. Pierwsze uruchomienie będzie trwało
+kilka-kilkanaście minut (w zależności od dostępnego łącza) ponieważ ściągane są
+obrazy konieczne do uruchomienia OpenShifta. Po poprawnym uruchomieniu można
+OpenShifta wyłączyć poleceniem <code>oc cluster down</code>.</p>
+<p>Dla niecierpliwych, przerabiane materiały dostępne są pod <a href="../../blog/pysilesia-62017/bit.ly/os3work">tym adresem</a>.</p>
+<p><strong>O prelegencie</strong>: Maciej jest pasjonatą programowania z ponad 10-cio letnim stażem.
+Obecnie zajmuje się <a href="http://bugs.python.org/">http://bugs.python.org/</a> a przy okazji
+czasem poprawia bibliotekę <code>imap</code> oraz od niedawna <code>argparse</code> ze standardowej biblioteki
+CPythona. Poza tym, pracuje nad projektami OpenShift i Kubernetes dla firmy Red Hat.
+W pozostałym wolnym czasie pomaga przy PyCon PL, US PyCon oraz prezentuje na różnych
+wydarzeniach w Europie i na Świecie.</p>
+
+    </section>
+    
+    <hr/>
+    <footer>
+      
+        <div class="row">
+          <div class="col-xs-1 col-xs-offset-1">
+            <p><i class="fa fa-map-marker fa-2x" aria-hidden="true" title="Miejsce" alt="Miejsce"></i></p>
+          </div>
+          <div class="col-xs-10">
+            <p>Medialab Katowice, Plac Sejmu Śląskiego 2, parter po lewej</p>
+
+          </div>
+        </div>
+      
+      
+        <div class="row">
+          <div class="col-xs-1 col-xs-offset-1">
+            <p><i class="fa fa-calendar fa-2x" aria-hidden="true" title="Czas" alt="Czas"></i></p>
+          </div>
+          <div class="col-xs-10">
+            <p>29 czerwca (czwartek), godz 18:00</p>
+
+          </div>
+        </div>
+      
+      
+        <div class="row">
+          <div class="col-xs-1 col-xs-offset-1">
+            <p><i class="fa fa-check-circle-o fa-2x" aria-hidden="true" title="Zapisy" alt="Zapisy"></i></p>
+          </div>
+          <div class="col-xs-10">
+            <p><a href="https://goo.gl/forms/1WegdMfuwX3zXVuA3">https://goo.gl/forms/1WegdMfuwX3zXVuA3</a></p>
+
+          </div>
+        </div>
+      
+    </footer>
+    
+  </article>
+
+
+      </div>
+    </div>
+  </div>
+  
+  <style>
+    /* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 30px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 30px;
+  background-color: #f5f5f5;
+}
+
+.container .text-muted {
+  margin: 5px 0;
+}
+</style>
+
+<footer class="footer">
+  <div class="container">
+    <p class="text-muted text-center">
+        &copy; Copyright 2017 by PySilesia. Hosted on
+        <a href="http://megiteam.pl/"><img src="../../static/megiteam.png?h=42d0bccb"/></a>
+    </p>
+  </div>
+</footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="../../static/js/bootstrap.min.js"></script>
+</body>
