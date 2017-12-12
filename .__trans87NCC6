@@ -53,59 +53,6 @@ Zachęcamy do zapoznania się z aktualnościami i zapraszamy na nasze spotkania.
   <article class="blog-post">
     <header>
       
-        <h2><a href="./blog/pysilesia-92017/">PySilesia #9/2017</a></h2>
-      
-      <p class="meta small">
-        dodane przez
-        
-          <a href="https://twitter.com/tulphoon">Dawid Osuchowski</a>
-         w dniu
-        2017-12-12
-      </p>
-    </header>
-    <section>
-      <p><strong>Prowadzący:</strong> Dominik Kozaczko</p>
-<p><strong>Tytuł:</strong> DjangoREST Framework od podszewki</p>
-<p><strong>Opis:</strong>  Na prelekcji zostaną omówione podstawy tworzenia RESTowego API na bazie DjangoREST Framework; prelegent podpowie jakich dodatków warto użyć, by zrobić to lepiej.</p>
-<p><strong>O prelegencie:</strong>
-Przez 10 lat wiódł podwójny żywot nauczyciela i programisty, zainicjował wprowadzenie Pythona na maturę, wykształcił dziesiątki programistów. Po odejściu ze szkoły nie mógł zerwać z nałogiem i wskrzesił swój kanał na YouTube. Czasem zrobi jakiś wykład. Specjalizuje się w backendzie, w szczególności opartym o Django i Django-REST-Framework.</p>
-
-    </section>
-    
-    <hr/>
-    <footer>
-      
-        <div class="row">
-          <div class="col-xs-1 col-xs-offset-1">
-            <p><i class="fa fa-map-marker fa-2x" aria-hidden="true" title="Miejsce" alt="Miejsce"></i></p>
-          </div>
-          <div class="col-xs-10">
-            <p>Centrum Organizacji Pozarządowych w Katowicach, ul. Kopernika 14, parter (sala konferencyjna)</p>
-
-          </div>
-        </div>
-      
-      
-        <div class="row">
-          <div class="col-xs-1 col-xs-offset-1">
-            <p><i class="fa fa-calendar fa-2x" aria-hidden="true" title="Czas" alt="Czas"></i></p>
-          </div>
-          <div class="col-xs-10">
-            <p>14 grudnia (czwartek), godz 19:00</p>
-
-          </div>
-        </div>
-      
-      
-    </footer>
-    
-  </article>
-
-  
-    
-  <article class="blog-post">
-    <header>
-      
         <h2><a href="./blog/pysilesia-82017/">PySilesia #8/2017</a></h2>
       
       <p class="meta small">
@@ -373,6 +320,73 @@ wydarzeniach w Europie i na Świecie.</p>
 
           </div>
         </div>
+      
+    </footer>
+    
+  </article>
+
+  
+    
+  <article class="blog-post">
+    <header>
+      
+        <h2><a href="./blog/pysilesia-52017/">PySilesia #5/2017</a></h2>
+      
+      <p class="meta small">
+        dodane przez
+        
+          <a href="https://twitter.com/tulphoon">Dawid Osuchowski</a>
+         w dniu
+        2017-05-17
+      </p>
+    </header>
+    <section>
+      <p>Kolejne spotkanie PySilesia w maju, tym razem z prelekcjami. W ramach spotkania trzy prelekcje i sesja lightning talks. Bezpłatny poczęstunek dla uczestników w trakcie spotkania funduje firma <a href="https://www.xcaliber.com/">XCaliber</a>.</p>
+<hr>
+<p><strong>Prowadzący</strong>: Lumír Balhar</p>
+<p><strong>Tytuł</strong>: Why is Python 3 backward incompatible?</p>
+<p><strong>Opis</strong>: The support for Python 2 will stop in 2020 so you really should start to be interested in Python 3. But there are a lot of incompatible changes between Python 2 and 3 and many people are angry. I think that the first step to adapt to new stuff in Python 3 is to understand why these changes had to be made - and this is what I want to describe. Join me if you are interested in the background of Python development itself.</p>
+<p><strong>O prelegencie</strong>: Python developer, firefighter, drummer, biker, teacher and somebody who is always there when you need him.</p>
+<hr>
+<p><strong>Prowadzacy</strong>: Jakub Wasielak</p>
+<p><strong>Tytuł</strong>: Python Packaging - omówienie</p>
+<p><strong>Opis</strong>: Historycznie Pythonowe pakiety były źródłem wielu problemów wśród nawet najbardziej zagorzałych entuzjastów. Wielu deweloperów (w tym i ja do niedawna) zna podstawy tworzenia pakietów w PyPI bazując jedynie na kilku tutorialach. W trakcie prezentacji omówię obecny status narzędzi skupiając się głównie na setuptools, pip i wheels podkreślając ich zalety nad poprzednikami.</p>
+<p><strong>O prelegencie</strong>: Programista Pythona skupiony na społeczności. Współorganizator krakowskiej grupy Pykonik, uczestnik i twórca hackathonów, koordynator Python Challenge mającego miejsce na konferencji PyCon PL. W Pythonie pisze od 10 lat z nastawieniem na programowanie webowe. Obecnie pracownik firmy YouGov, w wolnym czasie miłośnik fantastyki i organizator konwentu Fornost. Na pytanie, co lubi w programowaniu zawsze odpowiada, że kontakt z ludźmi.</p>
+<hr>
+<p><strong>Prowadzacy</strong>: Marius Rejdak</p>
+<p><strong>Tytuł</strong>: Dowodzenie kontenerowcem z Kubernetes przy sterze</p>
+<p><strong>Opis</strong>: Prezentacja poruszy podstawy zarządzania klastrem Kubernetes z punktu widzenia administratora i programisty, oraz nasze doświadczenia w dostosowaniu istniejących aplikacji do infrastruktury opartej na kontenerach.</p>
+<p><strong>O prelegencie</strong>: Python dev i Sysadmin samouk, zafascynowany Linuksem i konteneryzacją świata serwerowego, członek zespołu Gaming Platform w XCaliber.</p>
+<hr>
+<p><strong>Lightning Talks</strong>:<br>
+Odbędzie się też sesja szybkich pięciominutowych prelekcji. Nie trzeba ich wcześniej zgłaszać, ale warto przed spotkaniem się trochę przygotować.</p>
+
+    </section>
+    
+    <hr/>
+    <footer>
+      
+        <div class="row">
+          <div class="col-xs-1 col-xs-offset-1">
+            <p><i class="fa fa-map-marker fa-2x" aria-hidden="true" title="Miejsce" alt="Miejsce"></i></p>
+          </div>
+          <div class="col-xs-10">
+            <p>Strefa Centralna, Plac Sejmu Śląskiego 2, Katowice, 1 piętro (na wprost)</p>
+
+          </div>
+        </div>
+      
+      
+        <div class="row">
+          <div class="col-xs-1 col-xs-offset-1">
+            <p><i class="fa fa-calendar fa-2x" aria-hidden="true" title="Czas" alt="Czas"></i></p>
+          </div>
+          <div class="col-xs-10">
+            <p>25 maja (czwartek), godz 18:00</p>
+
+          </div>
+        </div>
+      
       
     </footer>
     
